@@ -2,12 +2,11 @@
 """ Module that contains a Square Class """
 
 
-class square():
+class Square():
     """ Square class definition """
     
     width = 0
     height = 0
-
     
     def __init__(self, *args, **kwargs):
         """ Initializes the Square values """
@@ -26,9 +25,9 @@ class square():
         """ String intepratation of the square """
         return "{}/{}".format(self.width, self.height)
 
-if __name__ == "__main__":
 
-    s = square(width=12, height=9)
+if __name__ == "__main__":
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
