@@ -4,10 +4,10 @@
 
 class Square():
     """ Square class definition """
-    
+
     width = 0
     height = 0
-    
+
     def __init__(self, *args, **kwargs):
         """ Initializes the Square values """
         for key, value in kwargs.items():
